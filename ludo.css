@@ -1,0 +1,130 @@
+body{
+	background-image: url('https://image.shutterstock.com/image-photo/ludo-game-dice-money-note-260nw-1451304368.jpg');
+	background-size: cover;
+}
+.LockerA{
+	 border: 2px solid black;
+	 height: 70px;
+	 width: 100px;
+	 margin-top: 10px;
+	 }
+
+.LockerA,.column-1,.column-2,.column-3,.column-4,.column-5,.column-6,.column-19,.column-20{
+	display: inline-block;
+}
+.column-1{
+	margin-left: 20px;
+	margin-top: 0px;
+}
+.column-1,.column-2,.column-3,.column-4,.column-5,.column-6,.column-19,.column-20{
+	margin-top: 0px;
+}
+.column-1,.column-2,.column-3,.column-4,.column-5,.column-6,.column-19,.column-20{
+	border: 2px solid #22e03b;
+	background-color: #22e03b;
+	border-radius: 30px;
+	
+	height: 60px;
+	width: 60px;
+
+
+}
+.tokens{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	display: inline-block;
+}
+#bluetoken1{
+	background-color: blue;
+
+}
+#bluetoken2{
+	background-color: blue;
+	
+}
+#greentoken1{
+	background-color: green;
+	top: 50px;
+	left: 20px;
+
+
+}
+#greentoken2{
+	background-color: green;
+
+}
+
+.part1{
+	margin-left: 100px;
+}
+.part2{
+	float: left;
+	margin-left: 110px;
+}
+.part3{
+	float: right;
+}
+.part3{
+	margin-right: 670px;
+}
+.column-7,.column-8,.column-9,.column-10,.column-11,.column-12,.column-21{
+	border: 2px solid #42e5eb;
+	background-color: #42e5eb;
+	border-radius: 30px;
+	height: 60px;
+	width: 60px;
+	}
+
+.column-13,.column-14,.column-15,.column-16,.column-17,.column-18,.column-22{
+	border: 2px solid #22e03b;
+	background-color: #22e03b;
+	border-radius: 30px;
+	height: 60px;
+	width: 60px;
+
+	
+}
+.part1,.part2{
+	display: inline-block;
+}
+.column-23,.column-24,.column-25,.column-26,.column-27,.column-28,.column-29,.column-30{
+	display: inline-block;
+	border: 2px solid #42e5eb;
+	background-color: #42e5eb;
+	border-radius: 30px;
+	height: 60px;
+	width: 60px;
+
+}
+.LockerB{
+	border: 2px solid black;
+	height: 80px;
+	width: 100px;
+	margin-top: 310px;
+	margin-left: 660px; 
+
+}
+.bton{
+	padding: 10px;
+	font-size: 20px;
+	margin-left: 150px; 
+	font-family: Pacifico;
+}
+#dice{
+	background-image: url('Pictures/dicerll.gif');
+	width: 120px;
+	height: 120px;
+	background-size: contain;
+	margin-left: 350px;
+	margin-top: 20px;
+}
+.logo{
+	float: right;
+	margin-right: 20px;
+	font-style: 
+
+}
+h4{
+	margin-left: 350px;
+}
