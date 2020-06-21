@@ -1,3 +1,4 @@
+window.onload = function(){
 var currPos = 0;
 var step = 59.5;
 var currcolor = "";
@@ -140,7 +141,7 @@ function randomNum() {
     if (!clicked) {
         num = Math.floor((Math.random() * 6) + 1);;
         var dice = document.getElementById('dice');
-        dice.style.backgroundImage = "url("Pictures/" + 'dice' + num + ".jpg")";
+        dice.style.backgroundImage = "url(Pictures/dice"+num.toString()+".jpg)";
         clicked = true;
     }
     if (num != 6&&DontHaveOtherFree()) {
@@ -202,7 +203,7 @@ function randomMove(Color, token) {
                         if (victim != false) {
                             ResetToken(victim);
                         }
-                        if (currPos == 28) { tokenOut[()currcolor]++; onboard[currtoken] = 0; positions[currtoken] = 0; document.getElementById(currtoken).style.visibility = "hidden"; };
+                        if (currPos == 28) { tokenOut[currcolor]++; onboard[currtoken] = 0; positions[currtoken] = 0; document.getElementById(currtoken).style.visibility = "hidden"; };
                         CheckForWinner();
                         changePlayer();
                     }
@@ -215,4 +216,5 @@ function randomMove(Color, token) {
             }
         }
     }
+}
 }
