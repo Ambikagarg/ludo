@@ -60,7 +60,7 @@ body{
 }
 .part2{
 	float: left;
-	margin-left: 110px;
+	margin-left: 118px;
 }
 .part3{
 	float: right;
@@ -101,7 +101,7 @@ body{
 	border: 2px solid black;
 	height: 70px;
 	width: 100px;
-	margin-top: 190px;
+	margin-top: 140px;
 	margin-left: 660px; 
 
 }
@@ -121,10 +121,18 @@ body{
 }
 .logo{
 	float: right;
+	color: red;
 	margin-right: 20px;
-	font-style: 
+	border: 3px solid blue;
+	padding: 10px;
+	font-family: 'Comic Sans MS'; 
 
 }
 h4{
 	margin-left: 350px;
+	font-family: 'Comic Sans MS';
+	font-size: 20px;
+	color: black;
+	
+
 }
