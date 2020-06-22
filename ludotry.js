@@ -8,6 +8,7 @@ var clicked = false;
 var currtoken = "";
 var colors = ["green","blue"];
 var tokenOut = {green:0,blue:0}
+document.querySelector(#dice).addEventListener('click',randomNum());
 function HaveHover() {
     var count = 0;
     var toKill = "";
